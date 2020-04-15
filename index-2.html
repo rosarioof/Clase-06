@@ -6,12 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
     <style>
-        /*
-        cambiar la fuente
-        esto implica cambiar dos cosas
-        - el @import (en línea 15)
-        - la definición de font-family (en línea 20), HECHO!!
-        */
+       
         @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
         html,
         body {
@@ -59,7 +54,7 @@
         function setup() {
             createCanvas(windowWidth, windowHeight).position(0, 0).style('z-index', -1);
             //modificar lo siguiente para que aparezca su nombre y apellido, con consulta a la variable nombres
-            document.getElementsByTagName("h1")[0].append(nombres.estudiantes + "Rosario Olivares");
+            document.getElementsByTagName("h1")[0].append(nombres.estudiantes[14] + " en cuarentena");
             //modificar el siguiente mensaje, HECHO!!
             console.log("Aprendiendo programación básica en casa #cornavirus2k20");
         }
