@@ -28,29 +28,30 @@
             display: block;
         }
     </style>
+    
     <title>PROGRAMACIÓN C2</title>
 </head>
 
 <body>
-    <select onchange="if (this.value) window.location.href=this.value">
-<option value="index.html" selected>Portada &rarr; index.html</option>
-<option value="index-1.html">Clase 01 &rarr; index-1.html</option>
-<option value="index-2.html">Clase 02 &rarr; index-2.html</option>
-<option value="index-3.html">Clase 03 - portada &rarr; index-3.html</option>
-<option value="page-3.html">Clase 03 - página &rarr; page-3.html</option>
-<option value="index-4.html">Clase 04 - portada &rarr; index-4.html</option>
-<option value="page-4.html">Clase 04 - página &rarr; page-4.html</option>
-<option value="index-5.html">Clase 05 - portada &rarr; index-5.html</option>
-<option value="graph-5.html">Clase 05 - gráfico &rarr; graph-5.html</option>
-<option value="mapa-5.html">Clase 05 - mapa &rarr; mapa-5.html</option>
-</select>
-    
     <h1><!--dejar esto vacío--></h1>
-    <script>
-        var a = 20; //ajustar esta variable que se usa en la definción del ancho y alto de la elipse , HECHO!!
-        var b = 50; //ajustar esta variable que se usa en la definición del color , HECHO!!
-        var c;
-        var nombres = {
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html" selected>Portada &rarr; index.html</option>
+            <option value="index-1.html">Clase 01 &rarr; index-1.html</option>
+            <option value="index-2.html">Clase 02 &rarr; index-2.html</option>
+            <option value="index-3.html">Clase 03 - portada &rarr; index-3.html</option>
+            <option value="page-3.html">Clase 03 - página &rarr; page-3.html</option>
+            <option value="index-4.html">Clase 04 - portada &rarr; index-4.html</option>
+            <option value="page-4.html">Clase 04 - página &rarr; page-4.html</option>
+            <option value="index-5.html">Clase 05 - portada &rarr; index-5.html</option>
+            <option value="graph-5.html">Clase 05 - gráfico &rarr; graph-5.html</option>
+            <option value="mapa-5.html">Clase 05 - mapa &rarr; mapa-5.html</option>
+       </select>
+    
+  <script>
+      var a = 20; //ajustar esta variable que se usa en la definción del ancho y alto de la elipse , HECHO!!
+      var b = 40; //ajustar esta variable que se usa en la definición del color , HECHO!
+      var c;
+      var nombres = {
             estudiantes: ["Camila Azócar", "María Paz Concha", "Olga F. Vio", "Trinidad González", "Matías Hagen", "María Francisca Hepp", "María Eliana Infante", "Magdalena Labarca", "Elsa Mora", "Vanessa Müller", "Jana Müller", "Muriel Muñoz", "María Trinidad Noriega", "Rosario Olivares", "Amparo Ortúzar", "Valeria Parraguéz", "Francisco Pezoa", "Francisca Purcell", "Martina Rivas", "Pilar Saavedra", "Lisa Saez", "David Sánchez", "Cecilia Soto", "María Elisa Valdés", "Francisca Vial", "María José Villasante"],
             profesor: "Felipe Cortez"
         }
@@ -83,10 +84,10 @@
         */
 
         function mouseClicked() {
-            if (b === 50) {
+            if (b === 40) {
                 b = 350;
             } else {
-                b = 50;
+                b = 40;
             }
         }
         /*
