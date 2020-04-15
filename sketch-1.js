@@ -7,7 +7,6 @@ function setup() {
 // ESTO VENDRIA siendo el espacio de dibujo de 400x400
 
 function draw() {
- 
   //background(5,240,20);
  // background(220);esto seria negro
   //background(0,255,0) verde
