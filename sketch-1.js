@@ -1,7 +1,8 @@
 var a =50;
 var c;
+
 function setup() {
-createCanvas(windowWidth, windowHeight);
+ createCanvas(windowWidth, windowHeight);
 }
 // ESTO VENDRIA siendo el espacio de dibujo de 400x400
 
@@ -16,7 +17,7 @@ function draw() {
   fill(random(0,40),100,100);
   // relleno rojo, con la mitad de saturacion 50, brillo al maximo
   noStroke();
-  c = a * random(1,5);
+  c =a * random(1,5);
   ellipse(mouseX,mouseY,c,c);
   
   
