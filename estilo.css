@@ -8,6 +8,7 @@ html, body {
 
 body {
     font-family: 'PT Serif', serif;
+    color: rgba(204,0,204);
 }
 
 select {
