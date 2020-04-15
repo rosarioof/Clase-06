@@ -8,6 +8,7 @@ html, body {
 
 body {
     font-family: 'PT Serif', serif;
+    color: rgba(204,0,204, 0.75);
 }
 
 select {
@@ -27,5 +28,4 @@ div {
 
 h1, p {
     padding: 0.25rem;
-    color: rgb(204,0,204);
 }
